@@ -6,35 +6,35 @@ import { theme } from "./theme";
 import { useStateContext } from "./context/state_context";
 import Loader from "./components/Loader";
 const Home = lazy(async () => {
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 2200));
   return import("./pages/Home");
 });
 const Skills = lazy(async () => {
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 2200));
   return import("./pages/Skills");
 });
 const Projects = lazy(async () => {
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 2200));
   return import("./pages/Projects");
 });
 const Contact = lazy(async () => {
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 2200));
   return import("./pages/Contact");
 });
 const Navbar = lazy(async () => {
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 2200));
   return import("./components/Navbar");
 });
 const SideBar = lazy(async () => {
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 2200));
   return import("./components/SideBar");
 });
 const Footer = lazy(async () => {
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 2200));
   return import("./components/Footer");
 });
 const Borders = lazy(async () => {
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 2200));
   return import("./components/Borders");
 });
 function App() {

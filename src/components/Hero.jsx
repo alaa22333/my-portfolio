@@ -17,7 +17,7 @@ const Hero = () => {
 <Typography  sx={{color:'white',fontSize:{md:'2.5rem',xs:'1.5rem'}}}>Alaa AbdelRasoul<Circle sx={{fontSize:{md:'.8rem',xs:'.5rem'}}}/></Typography>
 <Typography  sx={{color:'#cbd5e1',fontSize:{md:'3rem',xs:'1.3rem'}}} >I Build Things For Web<Circle sx={{fontSize:{md:'.8rem',xs:'.5rem'}}}/></Typography>
 <Typography sx={{color:theme.palette.secondary.main,width:{md:'70%',xs:'100%'},fontSize:{md:'1rem',xs:'.7rem'}}} component='p'>I'm a frontend web Developer specializing in building exceptional digital experiences and feeling interested in creating new things. </Typography>
-<Link href='https://drive.google.com/file/d/1fyRaesj7QFJRyAVcYcj4hXhHPISeP1Rv/view?usp=sharing' target='_blank'  underline='none' sx={{color:color,marginTop:'20px',border:'2px #f472b6 solid' ,'&:hover':{color:theme.palette.background,background:color} ,transition:'all .4s linear',p:'10px'}} >See My Resume</Link>
+<Link href='https://drive.google.com/file/d/1p8W_ENgq4voci3RNNitT2ZcGAXn1wbPg/view?usp=share_link' target='_blank'  underline='none' sx={{color:color,marginTop:'20px',border:'2px #f472b6 solid' ,'&:hover':{color:theme.palette.background,background:color} ,transition:'all .4s linear',p:'10px'}} >See My Resume</Link>
         </Box>
         <Box  sx={{width:{lg:'40%',xs:'100%'},textAlign:'center'}}>
             <Box component={motion.img}

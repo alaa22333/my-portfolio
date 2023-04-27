@@ -44,7 +44,7 @@ export const projects=[
 {imgUrl:img1,color:'#E50914',url:'https://react-netflix-website.netlify.app/',git:'https://github.com/alaa22333/React-Netflix-Website',uses:['Tailwind css','React js','Redux Toolkit','firebase','Rest Api'],name:'Netflix App'},
 {imgUrl:img2,color:'#f97316',url:'https://artenon-e-commerce-website.netlify.app/',git:'https://github.com/alaa22333/Ecommerce-Artenon-Website',uses:['Mui','React js','Context','firebase','Rest Api'],name:'Artenon E-commerce Website'},
 {imgUrl:img11,color:'#3b82f6',git:'https://github.com/alaa22333/React-Dashboard',uses:['Material Tailwind','Mui','full Calendar','React js','firebase'],name:'E-commerce Dashboard '},
-{imgUrl:img3,color:'#f472b6',url:'https://artenon-e-commerce-website.netlify.app/',git:'https://github.com/alaa22333/Ecommerce-Artenon-Website',uses:['Mui','React js','Framer Motion','Email js'],name:'My Portfolio'},
+{imgUrl:img3,color:'#f472b6',url:'https://alaa22333.github.io/my-portfolio/',git:'https://github.com/alaa22333/my-portfolio.git',uses:['Mui','React js','Framer Motion','Email js'],name:'My Portfolio'},
 {imgUrl:img4,color:'#3b82f6',url:'https://javascript-bookmark-project.netlify.app/',git:'https://github.com/alaa22333/javascript-Bookmark-project.git',uses:['HTML','Css','JavaScript'],name:'Bookmark App'},
 {imgUrl:img5,color:'black',url:'https://nasa-articles-js.netlify.app/',git:'https://github.com/alaa22333/nasa-articles-js.git',uses:['HTML','Css','JavaScript'],name:'Nasa Articles App'},
 {imgUrl:img6,color:'red',url:'https://quots-js.netlify.app/',git:'https://github.com/alaa22333/quots-js.git',uses:['HTML','Css','JavaScript'],name:'Random Quot App'},
