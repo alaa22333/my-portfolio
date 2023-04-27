@@ -20,7 +20,7 @@ const Navbar = () => {
         component={motion.div}
         initial={{ opacity: 0, scale: 0.5 }}
         whileInView={{ opacity: 2, scale: 1 }}
-        transition={{ delay: 0.7, duration: 2 }}
+        transition={{ delay: 0.9, duration: 2 }}
       >
         {" "}
         <Logo />
@@ -38,7 +38,7 @@ const Navbar = () => {
               component={motion.a}
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.7, duration: 2 }}
+              transition={{ delay: 0.8, duration: 2 }}
               underline="none"
               display="flex"
               gap={2}

@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const Contact = () => {
  
   return (
-    <Box my={10} sx={{ paddingX: { md: 15, xs: 3 } }} id="contact">
+    <Box    my={15} sx={{ paddingX: { md: 15, xs: 3 } }} id="contact">
       <HeadLine title2="Contact" />
       <Box
         display="flex"

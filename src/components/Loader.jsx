@@ -16,10 +16,10 @@ const Loader = () => {
         delay: 0.3,
         ease: [0.5, 0.71, 1, 1.5],
       }}
-      sx={{transform:'translate(-50%,-50%)'}}
+      sx={{transform:'translate(-50%,-50%) ', left:{lg:"48%",md:'43%',xs:'33%'}}}
       position="absolute"
       top="50%"
-      left="50%"
+     
     >
       <Logo />
     </Box>

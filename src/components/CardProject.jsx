@@ -10,7 +10,7 @@ const CardProject = ({ imgUrl, url, git, uses, name, color }) => {
   const [showDetails, setShowDetails] = useState(false);
   return (
     <Box
-      onHoverStart={() => setShowDetails(true)}
+      onMouseDown={() => setShowDetails(true)}
       onMouseLeave={() => setShowDetails(false)}
       position="relative"
       whileInView={{

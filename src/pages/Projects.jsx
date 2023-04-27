@@ -9,7 +9,7 @@ const Projects = () => {
   const color = theme.palette.primary.main;
 
   return (
-    <Box my={15} id='projects' sx={{ paddingX: { md: 15, xs: 3 } }} >
+    <Box    my={10} id='projects' sx={{ paddingX: { md: 15, xs: 3 } }} >
       <HeadLine title1='My' title2="Projects" />
       <Box
         display="flex"

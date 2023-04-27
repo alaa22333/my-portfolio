@@ -53,7 +53,8 @@ const SideBar = () => {
                   <link.icon />
                 </IconButton>
                 <Link
-                  target='_blank'
+                  href={href}
+                
                   underline="none"
                   display="flex"
                   gap={2}
@@ -62,8 +63,6 @@ const SideBar = () => {
                     setCloseSideBar(!closeSideBar);
                   }}
                   sx={{ color: selectedLink === title ? color : "white" }}
-                  key={i}
-                  href={href}
                 >
                   {title}
                 </Link>

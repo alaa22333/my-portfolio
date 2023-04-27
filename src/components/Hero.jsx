@@ -7,12 +7,12 @@ import { motion } from 'framer-motion';
 const Hero = () => {
     const color = theme.palette.primary.main;
     return (
-    <Box   display='flex' alignItems='center' mb={15} sx={{mt:{md:17,xs:2},flexWrap:'wrap-reverse',paddingX:{md:15,xs:3}}}>
+    <Box   display='flex' alignItems='center' sx={{ mb:{md:29,xs:10} , mt:{md:17,xs:2},flexWrap:'wrap-reverse',paddingX:{md:15,xs:3}}}>
         <Box component={motion.div}
-    initial={{opacity:0,translateX:'-20%'}}
+    initial={{opacity:0,translateX:'-80%'}}
     whileInView={{opacity:2,translateX:0}}
  
-    transition={{delay:.7,duration:2}}  display='flex' gap={1} flexDirection='column' alignItems='start' sx={{width:{lg:'60%',xs:'100%'},mt:{md:0,xs:'20px'}}}>
+    transition={{delay:.9,duration:2}}  display='flex' gap={1} flexDirection='column' alignItems='start' sx={{width:{lg:'60%',xs:'100%'},mt:{md:0,xs:5}}}>
 <Typography sx={{color:color}}>Hi ,My Name is</Typography>
 <Typography  sx={{color:'white',fontSize:{md:'2.5rem',xs:'1.5rem'}}}>Alaa AbdelRasoul<Circle sx={{fontSize:{md:'.8rem',xs:'.5rem'}}}/></Typography>
 <Typography  sx={{color:'#cbd5e1',fontSize:{md:'3rem',xs:'1.3rem'}}} >I Build Things For Web<Circle sx={{fontSize:{md:'.8rem',xs:'.5rem'}}}/></Typography>

@@ -16,6 +16,7 @@ import img6 from '../assets/img6.png';
 import img7 from '../assets/img7.png';
 import img8 from '../assets/img8.png';
 import img11 from '../assets/img11.png';
+import { motion } from "framer-motion";
 const color = theme.palette.primary.main;
 
 export const links = [
@@ -54,9 +55,13 @@ export const projects=[
 ]
 export const HeadLine = ({title1,title2}) => {
   return (
-    <>
+    <motion.div  
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    transition={{ delay: 0.8, duration: 2 }}>
     
       <Box
+      
         sx={{
         alignItems:'center',
           position: "relative",
@@ -79,6 +84,6 @@ export const HeadLine = ({title1,title2}) => {
         position="absolute"
         sx={{ background: color, width: "70px", height: "4px", display:'flex',left:'50%',transform:'translateX(-50%)'  }}
       ></Box>
-    </>
+    </motion.div>
   );
 };
